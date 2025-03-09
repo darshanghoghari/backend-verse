@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: "Server Connected..."
+        message: "Enjoy Server service"
     })
 })
 
