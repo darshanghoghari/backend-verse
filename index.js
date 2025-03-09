@@ -10,7 +10,7 @@ const contactRoute = require('./src/routes/contact.routes');
 
 app.use(express.json());
 const corsOptions = {
-    origin: true,
+    origin: "*",
     credentials: true
 };
 app.use(cors(corsOptions));
